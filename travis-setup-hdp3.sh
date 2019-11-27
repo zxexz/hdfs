@@ -41,6 +41,12 @@ sudo apt-get install -y --allow-unauthenticated hadoop hadoop-hdfs
 
 sudo mkdir -p /opt/hdfs/data /opt/hdfs/name
 sudo chown -R hdfs:hdfs /opt/hdfs
+
+echo "HADOOP_HOME: $HADOOP_HOME"
+echo "HADOOP_YARN_HOME: $HADOOP_YARN_HOME"
+export HADOOP_YARN_HOME=$HADOOP_HOME
+ls -lah $HADOOP_YARN_HOME
+
 sudo -u hdfs hdfs namenode -format -nonInteractive
 
 sudo adduser travis hadoop
