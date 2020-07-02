@@ -1,4 +1,4 @@
-module github.com/colinmarc/hdfs/v2
+module github.com/zxexz/hdfs/v2
 
 require (
 	github.com/davecgh/go-spew v1.1.0 // indirect
@@ -17,4 +17,4 @@ require (
 	gopkg.in/jcmturner/rpc.v1 v1.1.0 // indirect
 )
 
-go 1.13
+go 1.14
