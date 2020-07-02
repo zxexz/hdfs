@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	hadoop "github.com/colinmarc/hdfs/v2/internal/protocol/hadoop_common"
+	hadoop "github.com/zxexz/hdfs/v2/internal/protocol/hadoop_common"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"math/rand"
 	"time"
 
-	hdfs "github.com/colinmarc/hdfs/v2/internal/protocol/hadoop_hdfs"
 	"github.com/golang/protobuf/proto"
+	hdfs "github.com/zxexz/hdfs/v2/internal/protocol/hadoop_hdfs"
 )
 
 const (
